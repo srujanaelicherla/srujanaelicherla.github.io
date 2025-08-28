@@ -3,66 +3,123 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Srujana | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Srujana Elicherla - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: white;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a1a3f; /* Navy Blue */
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    header a {
+      display: inline-block;
+      padding: 12px 25px;
+      background-color: white;
+      color: #0a1a3f;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    header a:hover {
+      background-color: #f1f1f1;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #0a1a3f;
+      margin-bottom: 40px;
+      font-size: 2rem;
+    }
+
+    .card {
+      background-color: #f9f9f9;
+      border-radius: 12px;
+      padding: 30px;
+      margin-bottom: 25px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #0a1a3f;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #0a1a3f;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
 </head>
 <body>
-  <!-- Header / Hero -->
   <header>
-    <div class="container">
-      <h1>Hi, I'm <span>Srujana</span></h1>
-      <p>Aspiring Computer Science Engineer | AI & Coding Enthusiast</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
+    <h1>Hello, I'm Srujana 👋</h1>
+    <p>Computer Science Student | AI & ML Enthusiast | Web Developer</p>
+    <a href="#work">View My Work</a>
   </header>
 
-  <!-- About -->
-  <section id="about" class="section">
-    <div class="container">
-      <h2>About Me</h2>
-      <p>
-        I’m a Computer Science student passionate about AI, coding, hackathons, and creative problem solving.
-        I love building impactful projects and continuously exploring new technologies.
-      </p>
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="card">
+      <h3> E-Learning Website</h3>
+      <p>Developed a responsive e-learning platform using HTML, CSS, and JavaScript. Won 1st place in Frontend Fusion Hackathon.</p>
     </div>
-  </section>
 
-  <!-- Projects -->
-  <section id="projects" class="section bg-light">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="projects">
-        <div class="card">
-          <h3>E-Learning Website</h3>
-          <p>Built with HTML & CSS. Won 1st place in Frontend Fusion Hackathon.</p>
-        </div>
-        <div class="card">
-          <h3>Queue & Circular Queue Implementation</h3>
-          <p>Data Structures coded in Java & Python.</p>
-        </div>
-        <div class="card">
-          <h3>AI Internship</h3>
-          <p>Worked on Python-based AI solutions during internship at Edz Learn.</p>
-        </div>
-      </div>
+    <div class="card">
+      <h3> AI Internship Project</h3>
+      <p>Worked on AI-based solutions at Edz Learn during a paid internship, gaining hands-on experience in real-world ML applications.</p>
     </div>
-  </section>
 
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Contact</h2>
-      <p>Let’s connect! You can reach me via:</p>
-      <ul>
-        <li><a href="mailto:your-email@example.com">📧 Email</a></li>
-        <li><a href="https://github.com/srujanaelicherla" target="_blank">💻 GitHub</a></li>
-        <li><a href="https://www.linkedin.com" target="_blank">🔗 LinkedIn</a></li>
-      </ul>
+    <div class="card">
+      <h3> Cybersecurity Challenges</h3>
+      <p>Participated in multiple hackathons like Pentathon CTF, IIT Madras Shaastra Hackathon, and Breaking Bug by IEEE CS MUJ.</p>
+    </div>
+
+    <div class="card">
+      <h3> Mobile App Development</h3>
+      <p>Designed simple Android apps as part of projects and hackathons, with a focus on usability and minimal UI.</p>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Srujana Elicherla/p>
+    <p>© 2025 Srujana Elicherla | <a href="https://github.com/srujanaelicherla" style="color:white;">GitHub</a></p>
   </footer>
 </body>
 </html>
